@@ -379,6 +379,7 @@ function audioLayerControl(elementContext)
         var url = this.toWave().toBlobUrlAsync("application/octet-stream");
         saveLink.href = url;
         saveLink.className = "btn btn-large btn-success";
+        alert(url);
         /*this.toWave().toBlobUrlAsync(function(url, host)
                                 {
                                     saveLink.href = url;
